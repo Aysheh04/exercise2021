@@ -16,8 +16,87 @@
         <mxCell id="PYoZ--fmbJuLYKGVBVWQ-2" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Input userId, filterType, startDate, endDate, sortOrder&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="295" y="200" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-4" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Retrieve all transactions for userId&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-4" target="PYoZ--fmbJuLYKGVBVWQ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-4" value="&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Fetch All Transactions&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="330" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-6" target="PYoZ--fmbJuLYKGVBVWQ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-6" target="PYoZ--fmbJuLYKGVBVWQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-6" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Filter by Type?&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="445" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-22" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Apply Type Filter&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-31" target="PYoZ--fmbJuLYKGVBVWQ-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="660" />
+              <mxPoint x="420" y="660" />
+              <mxPoint x="420" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-31" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Filter by Start Date?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="535" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-32" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Apply Start Date Filter&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="730" as="targetPoint" />
+            <mxPoint x="30" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-41" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;yes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-42" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Apply Start Date Filter&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-43" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Filter by Type?&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-44" target="PYoZ--fmbJuLYKGVBVWQ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-44" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Filter by End Date?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-47" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Apply End Date Filter&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-50" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;yes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="865" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-55" target="PYoZ--fmbJuLYKGVBVWQ-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PYoZ--fmbJuLYKGVBVWQ-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-55" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Sort by Date ASC/DESC?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="710" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-57" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Apply Sort&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="865" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-67" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;no&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PYoZ--fmbJuLYKGVBVWQ-71" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;yes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
