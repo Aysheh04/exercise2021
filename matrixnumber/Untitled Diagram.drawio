@@ -1,9 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.2">
   <diagram name="Page-1" id="a-nD0O29PPolzat-MXFn">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yOXgbCq-tr6oRjj7aDOA-1" target="yOXgbCq-tr6oRjj7aDOA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Start&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yOXgbCq-tr6oRjj7aDOA-2" target="yOXgbCq-tr6oRjj7aDOA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-2" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Prompt User for Input&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yOXgbCq-tr6oRjj7aDOA-5" target="yOXgbCq-tr6oRjj7aDOA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-5" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Store Data in CSV&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yOXgbCq-tr6oRjj7aDOA-7" target="yOXgbCq-tr6oRjj7aDOA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-7" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Construct SQL Query&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-9" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Execute Query&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yOXgbCq-tr6oRjj7aDOA-17" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
